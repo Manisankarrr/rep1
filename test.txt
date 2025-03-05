@@ -7,3 +7,29 @@ git clone (origin addres)
 git add testt.txt[goes to staging area]
 git commit -m "updated changes"[working folder to git copy folder]
 git push origin main[now pushing to main origin]
+
+
+created a file in git :
+Git -> vs or any editor
+ 
+ git clone (origin addres)[entire file]
+ git pull[files added after cloning can be pulled]
+
+ created a folder in local :
+ creating a git folder in the local folder
+
+ git init
+ git remote add origin https://github.com/Manisankarrr/rep2.git
+ [since no origin is created for this folder we manually create a rep2 repository in github and use this command to check and connect the origin]
+
+
+ git branch [displays - master or main]
+ if branch:
+    git push origin master
+ if main
+    git push origin main
+
+To change from master to main:
+
+    git branch -M main
+ 
