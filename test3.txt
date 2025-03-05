@@ -1,1 +1,1 @@
-hello
+check plain test.txt
