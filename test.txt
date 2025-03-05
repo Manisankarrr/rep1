@@ -64,4 +64,4 @@ to create a new branch through terminal:
 
 
 what are all the error's occur while merging:
-    conflict
+    conflict - same file has different content may cause us conflict this occurs to the merge acceptor branch(mostly main)
