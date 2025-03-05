@@ -23,7 +23,15 @@ Git -> vs or any editor
  [since no origin is created for this folder we manually create a rep2 repository in github and use this command to check and connect the origin]
 
 
- git branch [displays - master or main]
+ 
+what is the use of branch?
+    main branch have the main code 
+    workers create a new branch to work and then push their work to main branch
+
+
+create branch manually in git 
+
+git branch [displays - master or main]
  if branch:
     git push origin master
  if main
@@ -37,7 +45,23 @@ To change from master to main:
  changing it from main branch to another :
 
  git branch-a [view status of branch]
- 
+
     git pull to update in local
 
     git checkout branch1[to change contents to this branch1]
+
+To merge the code which workers created after branching their own
+    git checkout main(opening main)
+    opening main and then connecting to branch1
+    git merge branch1(merging branch1 to main)
+[merge comment is only can be used when we create a project since in company project we dont have access to it
+ her comes the pull request]
+
+to create a new branch through terminal:
+    git branch branchname
+    git checkout branchname(open)
+    git push origin branchname(to push)
+
+
+what are all the error's occur while merging:
+    conflict
