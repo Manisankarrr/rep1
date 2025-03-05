@@ -1,1 +1,9 @@
 createe nigg
+
+
+insert -> add -> commit -> push ->
+
+git clone (origin addres)
+git add testt.txt[goes to staging area]
+git commit -m "updated changes"[working folder to git copy folder]
+git push origin main[now pushing to main origin]
