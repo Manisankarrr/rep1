@@ -33,3 +33,11 @@ To change from master to main:
 
     git branch -M main
  
+
+ changing it from main branch to another :
+
+ git branch-a [view status of branch]
+ 
+    git pull to update in local
+
+    git checkout branch1[to change contents to this branch1]
